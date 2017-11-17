@@ -6,7 +6,7 @@ Firestore Cloud simple tool for backup / restore
 
 ## Usage
 Start with:
-`node index [options]`
+```node index [options]```
 
 ** Note: In restore mode, selected collection will be emptied first **
 
@@ -17,5 +17,7 @@ Options:
 * `--file` or `-f` - Name of the file to save / read json data
 
 Example:
+
 `node index backup -c col1 -f col1.json` will backup col1 into col1.json
+
 `node index restore -c col1 -f col1.json` will restore col1 from col1.json
