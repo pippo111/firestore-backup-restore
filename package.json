@@ -1,0 +1,14 @@
+{
+  "name": "firestore-json",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "firebase": "^4.6.2",
+    "firebase-admin": "^5.5.0",
+    "grpc": "^1.7.1",
+    "jsonfile": "^4.0.0",
+    "minimist": "^1.2.0"
+  },
+  "scripts": {
+  }
+}
