@@ -2,6 +2,8 @@
 Firestore Cloud simple tool for backup / restore
 
 ## Installation
+Provide `serviceAccountKey.json` to root directory with Firebase credentials. More on this here: https://firebase.google.com/docs/firestore/quickstart
+
 `npm install`
 
 ## Usage
