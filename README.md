@@ -27,7 +27,8 @@ Example:
 `node index restore -c col1` will restore col1 from col1.json
 
 Exemplary collection file structure:
-```[
+```javascript
+[
   {
     "id": "1",
     "data": "test 1"
@@ -36,4 +37,5 @@ Exemplary collection file structure:
     "id": "2",
     "data": "test 2"
   }
-]```
+]
+```
