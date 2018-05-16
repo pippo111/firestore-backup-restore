@@ -59,3 +59,7 @@ typings/
 
 # credentials
 serviceAccountKey.json
+
+# database files
+*.json
+!package.json
